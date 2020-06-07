@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+
+header{  
+    text-align: center; 
+}
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+a::selection{
+    color: none;
+}
+
+header h1{
+    margin: 0;
+    color: white;
+    padding: 20px;
+    background-color: coral;
+}
+
+nav ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 10px; 
+    background: rgb(51, 51, 51);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px; 
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.section{
+    background-color: rgb(86, 94, 100);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section h2{
+    margin-top: 0;
+}
+
+
+.button h2{
+    background-color: coral; 
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+  }
+
+
+.button{
+    background-color: rgb(86, 94, 100);
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.button a{
+    text-decoration: none;
+    color: honeydew;
+}
+
+
+footer{
+    background: rgb(51, 51, 51);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+footer p{
+    margin: 0;
+
+
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    
+}
+
+footer ul li a{
+    font-size: 0.8em;
+    color: rgb(109, 104, 104);
+    padding-right: 10px;
+}
+
+footer li{
+    display: inline-block;
+}
+
+.display{
+    background-color: teal;
+    border: 3px solid;
+    height: 300px;
+    text-align: center;
+    display: none;
+    color: white;
+    font-size: 3em;
+    line-height: 1.6em;
+}
